@@ -1,0 +1,63 @@
+{
+  "category": "monitoring",
+  "created_date": "2025-09-15T23:14:54.043233",
+  "default_ports": [
+    80,
+    443,
+    10051
+  ],
+  "dependencies": [
+    "mysql",
+    "php",
+    "apache",
+    "zabbix-agent"
+  ],
+  "description": "Zabbix is an enterprise-class monitoring solution for networks and applications",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/monitoring/zabbix",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/monitoring/zabbix",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T23:14:54.043240",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "zabbix",
+  "repository_url": "https://github.com/howtomgr/zabbix",
+  "spec_version": "2.0",
+  "subcategory": "monitoring",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "monitoring",
+    "alerting",
+    "metrics",
+    "enterprise"
+  ],
+  "title": "Zabbix",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/monitoring/zabbix"
+}
